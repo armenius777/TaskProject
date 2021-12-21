@@ -19,7 +19,7 @@ public class MainTests extends BaseTest {
     }
 
     @Test
-    @Description("Verify, that Provide note is shown and is correct")
+    @Description("Verify, that Preview note is shown and is correct")
     public void verifyNote() {
         Assert.assertTrue(page.getPreviewNote().isDisplayed(), NOTE_IS_MISSING);
         SoftAssert softAssert = new SoftAssert();
